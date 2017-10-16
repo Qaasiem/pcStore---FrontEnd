@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Kabaso Computers</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_home">Home</string>
+    <string name="title_activity_place_order">Place an Order</string>
+    <string name="title_activity_view_hardware">Hardware  List</string>
+    <string name="title_activity_add_hardware">Add New Hardware Item</string>
+    <string name="title_activity_delete_hardware">Delete Hardware Item</string>
+    <string name="title_activity_hardware_screen">Screen</string>
+    <string name="title_activity_hardware_ex_drive">External Drive</string>
+    <string name="title_activity_confirm_delete">Confirm Delete</string>
+</resources>
