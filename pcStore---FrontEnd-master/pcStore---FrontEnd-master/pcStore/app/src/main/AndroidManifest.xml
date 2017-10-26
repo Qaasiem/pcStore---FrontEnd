@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.qaasiems.pcStore" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/pc"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="org.qaasiems.pcStore.views.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="org.qaasiems.pcStore.views.HomeActivity"
+            android:label="@string/title_activity_home" >
+        </activity>
+        <activity
+            android:name="org.qaasiems.pcStore.views.PlaceOrder"
+            android:label="@string/title_activity_place_order" >
+        </activity>
+        <activity
+            android:name="org.qaasiems.pcStore.views.ViewHardware"
+            android:label="@string/title_activity_view_hardware" >
+        </activity>
+        <activity
+            android:name="org.qaasiems.pcStore.views.AddHardware"
+            android:label="@string/title_activity_add_hardware" >
+        </activity>
+        <activity
+            android:name="org.qaasiems.pcStore.views.DeleteHardware"
+            android:label="@string/title_activity_delete_hardware" >
+        </activity>
+        <activity
+            android:name="org.qaasiems.pcStore.views.HardwareScreen"
+            android:label="@string/title_activity_hardware_screen" >
+        </activity>
+        <activity
+            android:name="org.qaasiems.pcStore.views.HardwareExDrive"
+            android:label="@string/title_activity_hardware_ex_drive" >
+        </activity>
+    </application>
+
+</manifest>
